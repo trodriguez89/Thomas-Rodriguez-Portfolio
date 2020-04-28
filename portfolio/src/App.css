@@ -1,0 +1,290 @@
+html {
+    scroll-behavior:smooth;
+  }
+
+@keyframes landingButton {
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+@keyframes MoveUpDown {
+  0% {
+		transform: translatey(0px);
+	}
+	50% {
+		transform: translatey(-3px);
+	}
+	100% {
+		transform: translatey(0px);
+	}
+}
+
+.App {
+  text-align: center;
+}
+
+.home-style {
+  font-family: 'Permanent Marker', cursive;
+}
+
+nav{
+  height:55px;
+  /* background: linear-gradient(to right,#f96259, #ff5f6d); */
+  background: linear-gradient(to right,#9FC3E6, #2A3756);
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  padding:0 3%;
+  opacity:0.9;
+  
+}
+
+.nav-bar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  opacity: 0.97;
+  background: #fcfcfb;
+  font-size: 1.2rem;
+  z-index: 99999;
+}
+
+a{
+  text-decoration: none;
+  color: white;
+}
+
+.a-style {
+  font-family: 'Patrick Hand', cursive;
+  font-size: 1.4rem;
+}
+
+.name-landing {
+  font-family: 'Permanent Marker', cursive;
+  font-size: 5rem;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.desc-landing {
+  margin: 0 auto;
+  font-family: 'Permanent Marker', cursive;
+  font-size: 2rem;
+}
+
+.landing-pic{
+  width: 50%;
+}
+
+.logo-container{
+  margin:0 auto;
+  width:100%;
+  max-width:1240px;
+  display:flex;
+  flex-direction: column;
+  justify-content:center;
+  /* border: 1px solid black; */
+  height: 100vh;
+}
+
+.landing-page-button-contain{
+  text-align: center;
+  margin-top: 15px;
+  /* border: 1px solid black; */
+}
+
+.landing-page-button{
+  height:40px;
+  border:none;
+  font-size:1rem;
+  color:white;
+  font-weight:500;
+  width:250px;
+  text-decoration:none;
+  border-radius:20px;
+  background: linear-gradient(93deg, #9FC3E6, #2A3756);
+  animation-name: landingButton;
+	animation-iteration-count: 1;
+	animation-timing-function: ease-in;
+  animation-duration: 1s;
+  animation: MoveUpDown 1s linear infinite;
+}
+
+.landing-page-button:hover{
+  background: linear-gradient(to right, #2A3756, #9FC3E6);
+  transition-timing-function: ease-in;
+  transition: .5s cubic-bezier(0.2,0.8,0.2,1);
+  box-shadow: 0 5px 5px rgba(0,0 ,0, .25);
+  transform: translateY(-3px);
+}
+
+/* Styling for Projects Page */
+
+.project-contain {
+  padding-top: 50px;
+}
+
+.title-projects {
+  font-size: 2.5rem;
+  margin: 0 auto;
+  font-family: 'Permanent Marker', cursive;
+}
+
+.title-github {
+  font-family: 'Patrick Hand', cursive;
+  font-size: 1.3rem;
+}
+
+.github-projects {
+  /* border: 1px solid black; */
+  color: blue;
+}
+
+.project-contain-info {
+  /* border: 1px solid black; */
+  display: flex;
+  margin-top: 40px;
+  /* border: 1px solid black; */
+  justify-content: center;
+}
+
+.citrics-img {
+  width: 100%;
+}
+
+.citrics-image {
+  /* border: 1px solid black; */
+  width: 63%;
+}
+
+.project-info {
+  /* border: 1px solid black; */
+  width: 33%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  /* border: 1px solid black; */
+}
+
+.project-title {
+  margin: 0 auto;
+  font-size: 1.6rem;
+  font-family: 'Patrick Hand', cursive;
+}
+
+.project-desc {
+  font-family: 'Patrick Hand', cursive;
+  /* border: 1px solid black; */
+  display: flex;
+  justify-content: center;
+  font-size: 1.4rem;
+}
+
+.wl-image {
+  width: 63%;
+}
+
+.wl-img {
+  width: 100%;
+}
+
+.project-button-container {
+  display: flex;
+  justify-content: space-around;
+  width: 60%;
+  margin: 0 auto;
+}
+
+.project-button {
+  height:40px;
+  border:none;
+  font-size:1rem;
+  color:white;
+  font-weight:500;
+  width:150px;
+  text-decoration:none;
+  border-radius:20px;
+  background: linear-gradient(93deg, #9FC3E6, #2A3756);
+  animation-name: landingButton;
+	animation-iteration-count: 1;
+	animation-timing-function: ease-in;
+  animation-duration: 1s;
+  animation: MoveUpDown 1s linear infinite;
+}
+
+.project-button:hover {
+  background: linear-gradient(to right, #2A3756, #9FC3E6);
+  transition-timing-function: ease-in;
+  transition: .5s cubic-bezier(0.2,0.8,0.2,1);
+  box-shadow: 0 5px 5px rgba(0,0 ,0, .25);
+  transform: translateY(-3px);
+}
+
+/* CONTACT STYLING */
+
+.contact-main {
+  height: 100vh;
+}
+
+.contact-desc {
+  font-family: 'Patrick Hand', cursive;
+  font-size: 1.4rem;
+}
+
+.contact-style {
+  font-family: 'Permanent Marker', cursive;
+  font-size: 2.5rem;
+  margin: 0 auto;
+}
+
+.contact-title {
+  padding-top: 50px;
+}
+
+.icon-pics {
+  /* border: 1px solid black; */
+  width: 33%;
+}
+
+.icon-pics img {
+  width: 50%;
+}
+
+.pic-main-contain {
+  /* border: 1px solid black; */
+  display: flex;
+  height: 70vh;
+  justify-content: center;
+  align-items: center;
+}
+
+/* MEDIA STYLING */
+@media only screen and (max-width: 1000px){
+  .project-contain-info {
+    /* border: 1px solid black; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .citrics-image {
+    /* border: 1px solid black; */
+    width: 95%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .project-info {
+    /* border: 1px solid black; */
+    width: 95%;
+  }
+
+  .wl-image {
+    width: 95%;
+  }
+}
