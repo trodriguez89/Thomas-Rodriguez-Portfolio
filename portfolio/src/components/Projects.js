@@ -21,7 +21,7 @@ const Projects = () => {
 
                 <div className="project-info">
                     <h3 className = "project-title">Citrics</h3>
-                    <p className= "project-desc">Citrics is a city data comparison tool. I worked on a team consisting of 5 Web Developers, 2 Data Scientists, and 2 UX Designers. The data on the main comparison page is pulled from the U.S. Census data, Zillow, and an external Weather API. The main features my team worked on was the Single City Page which provides qualitative data such as restaraunts, events, museums, sporting events, etc. This data is being pulled from a Yelp API.</p>
+                    <p className= "project-desc">Citrics is a city data comparison tool. I was a part of a team consisting of 5 Web Developers, 2 Data Scientists, and 2 UX Designers. The data on the main comparison page is gathered from the U.S. Census data, Zillow, and an external Weather API. My team worked on the main features that included the Single City Page, which provides qualitative data, such as restaraunts, events, museums, sporting events, etc. This data is gathered from a Yelp API.</p>
 
                     <p className= "project-desc">Tech Stack: React, Node.js, ChartJS, OAuth, MapBox, Yelp API</p>
                     <div className="project-button-container">
@@ -40,7 +40,7 @@ const Projects = () => {
 
                 <div className="project-info">
                     <h3 className = "project-title">Weight Lifting Journal</h3>
-                    <p className= "project-desc">Weight Lifting Journal allows a user to track their workouts including weight, reps, sets, and ability to enter a journal entry. Uses are also able to delete or edit any existing workouts. I worked with a team consisting of 1 Back-End Developer and 3 Web Developers.</p>
+                    <p className= "project-desc">Weight Lifting Journal allows a user to track their workouts including weight, reps, sets, and targeted area. Users are also able to delete or edit any existing workouts. I worked with a team consisting of 1 Back-End Developer and 3 Web Developers.</p>
 
                     <p className= "project-desc">Tech Stack: React, Node.js, Express</p>
                     <div className="project-button-container">
