@@ -263,6 +263,11 @@ a{
 
 /* MEDIA STYLING */
 @media only screen and (max-width: 1000px){
+
+  .name-landing {
+    font-size: 4.3rem;
+  }
+
   .project-contain-info {
     /* border: 1px solid black; */
     display: flex;
